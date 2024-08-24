@@ -1,0 +1,7 @@
+{
+    "emb_model_path": "config/bge-m3",
+    "index_path": "data/processed/faiss_index_all",
+    "data_path": "data/raw/all_data.csv",
+    "test_data_path": "data/raw/test_data.csv",
+    "description_path": "data/processed/expert_analysis.csv"
+}

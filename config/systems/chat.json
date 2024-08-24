@@ -1,0 +1,22 @@
+{
+    "agents": {
+        "ProjectAnalyst": {
+            "config_path": "config/agents/project_analyst.json",
+            "prompt_config": "config/prompts/agent_prompt/project_analyst.json"
+        },
+        "ExpertAnalyst": {
+            "config_path": "config/agents/expert_analyst.json",
+            "prompt_config": "config/prompts/agent_prompt/expert_analyst.json"
+        },
+        "Recommender": {
+            "config_path": "config/agents/recommender.json",
+            "prompt_config": "config/prompts/agent_prompt/recommender.json"
+        },
+        "Explainer": {
+            "config_path": "config/agents/explainer.json",
+            "prompt_config": "config/prompts/agent_prompt/explainer.json"
+        }
+    },
+    "data_prompt": "config/prompts/data_prompt/chat.json",
+    "recall_config": "config/systems/recall.json"
+}

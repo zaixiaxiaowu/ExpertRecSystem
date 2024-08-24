@@ -1,0 +1,9 @@
+langchain==0.2.14
+langchain_openai==0.1.22
+loguru==0.7.2
+numpy==1.24.1
+pandas==2.2.2
+streamlit==1.37.1
+torch==2.4.0+cu118
+tqdm==4.66.5
+transformers==4.44.0

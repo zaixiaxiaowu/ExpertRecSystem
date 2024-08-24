@@ -1,0 +1,10 @@
+{
+    "finish": {
+        "type": "raw",
+        "content": "你好！请问有什么需要帮助您的?"
+    },
+    "finish_json": {
+        "type": "raw",
+        "content": "\"你好！请问有什么需要帮助您的?\""
+    }
+}

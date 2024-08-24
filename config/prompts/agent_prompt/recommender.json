@@ -1,0 +1,10 @@
+{
+    "recommender_prompt": {
+        "content": "你是推荐专家，任务是为项目推荐评审专家。根据项目描述与专家描述，将所有专家进行排序，并生成结构化的输出。要求输出如下格式的JSON，其中包括每个专家的排名、姓名和专业：\n\n{{\n  \"sorted_experts\": [\n    {{\"rank\": 排名, \"name\": \"专家姓名\", \"specialist\": \"该专家的专业领域\"}},\n    {{...}},\n    {{...}}\n  ]\n}}\n\n请注意，确保专家姓名与其专业相对应，不能改变专家信息。\n\n项目描述如下:{project}\n专家描述如下:",
+        "type": "template"
+    },
+    "recommender_example": {
+        "type": "raw",
+        "content": "{{\"sorted_experts\": [ {{\"rank\": 1, \"name\": \"赵丹萍\", \"specialist\": \"人工智能\"}}, {{\"rank\": 2, \"name\": \"杜立广\", \"specialist\": \"云计算\"}}, {{\"rank\": 3, \"name\": \"冯宏超\", \"specialist\": \"大数据\"}}, {{\"rank\": 4, \"name\": \"陈婉婷\", \"specialist\": \"网络安全\"}}, {{\"rank\": 5, \"name\": \"刘元法\", \"specialist\": \"物联网\"}}, {{\"rank\": 6, \"name\": \"李祥村\", \"specialist\": \"分布式系统\"}}, {{\"rank\": 7, \"name\": \"贺雷\", \"specialist\": \"区块链\"}}, {{\"rank\": 8, \"name\": \"李鹏\", \"specialist\": \"计算机视觉\"}}, {{\"rank\": 9, \"name\": \"陈一曲\", \"specialist\": \"自然语言处理\"}}, {{\"rank\": 10, \"name\": \"张骞\", \"specialist\": \"生物信息学\"}}]}}"
+    }
+}

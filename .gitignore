@@ -1,0 +1,16 @@
+.vscode
+.env
+
+config/bge-m3/
+
+data/*
+logs/*
+
+!data/
+!logs/
+
+*.bak
+*.tmp
+
+__pycache__/
+*.pyc
