@@ -65,7 +65,7 @@ def demo() -> None:
         "<h4 style='text-align: left; font-weight: bold;'>召回专家数</h4>",
         unsafe_allow_html=True,
     )
-    top_k = st.sidebar.slider("", min_value=10, max_value=50, value=10)
+    top_k = st.sidebar.slider("", min_value=10, max_value=100, value=50)
 
     st.sidebar.markdown("<br>", unsafe_allow_html=True)
 
@@ -74,7 +74,7 @@ def demo() -> None:
         "<h4 style='text-align: left; font-weight: bold;'>推荐专家数</h4>",
         unsafe_allow_html=True,
     )
-    num = st.sidebar.slider("", min_value=1, max_value=7, value=3)
+    num = st.sidebar.slider("", min_value=1, max_value=20, value=5)
 
     # Run the chat configuration with the selected parameters
     chat_config(

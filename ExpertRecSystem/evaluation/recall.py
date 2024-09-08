@@ -46,7 +46,7 @@ def evaluate_model(
             - `hit_rates` (`dict`): A dictionary of hit rates at different cutoff ranks (Top-10, Top-20, etc.).
             - `average_rank` (`float`): The average rank of the true expert in the predicted list.
     """
-    hit_counts = {10: 0, 20: 0, 30: 0, 40: 0, 50: 0, 60: 0, 70: 0, 80: 0, 100: 0}
+    hit_counts = {10: 0, 20: 0, 30: 0, 40: 0, 50: 0, 60: 0, 70: 0, 80: 0, 90: 0, 100: 0}
     ranks = []
     total_count = 0
 
